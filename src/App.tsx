@@ -10,11 +10,11 @@ function App() {
       <div className="relative">
         <AIIcebreakerGenerator />
         <Starburst 
-          className="hidden lg:block absolute bottom-[-30px] left-[820px] transform -translate-x-1/2 z-10"
+          className="hidden lg:block absolute bottom-[-30px] left-[750px] transform -translate-x-1/2 z-10"
           size={180}
         />
         <Starburst 
-          className="hidden lg:block absolute top-[-650px] left-[950px] transform -translate-x-1/2 z-10"
+          className="lg:block absolute bottom-[450px] right-[350px] transform -translate-x-1/2 z-10"
           size={180}
         />
       </div>

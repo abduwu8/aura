@@ -10,7 +10,7 @@ export const CategoryPanel: React.FC<CategoryPanelProps> = ({
   categories
 }) => (
   <motion.div 
-    className="w-full lg:w-[350px] h-[400px] sm:h-[500px] bg-[#120904] flex flex-col items-center justify-center p-4 relative mt-4 lg:mt-0"
+    className="w-full lg:w-[300px] left-[150px] top-[20px] h-[400px] sm:h-[500px] bg-[#120904] flex flex-col items-center justify-center p-4 relative mt-4 lg:mt-0"
     animate={{
       y: [0, 10, 0],
       transition: {

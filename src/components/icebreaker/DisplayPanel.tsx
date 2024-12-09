@@ -10,7 +10,7 @@ export const DisplayPanel: React.FC<DisplayPanelProps> = ({
   onGenerate
 }) => (
   <motion.div 
-    className="w-full  lg:w-[800px] h-[400px] sm:h-[500px] lg:h-[600px] bg-[#120904] flex flex-col items-center justify-center p-4 relative"
+    className="w-full right-[100px] lg:w-[800px] h-[400px] sm:h-[500px] lg:h-[600px] bg-[#120904] flex flex-col items-center justify-center p-4 relative"
     animate={{
       y: [0, 10, 0],
       transition: {

@@ -9,7 +9,7 @@ export const CreditsScreen: React.FC = () => {
 
   return (
     <motion.div 
-      className="fixed left-[1010px] hidden top-[450px] lg:flex sm:bottom-8 sm:right-8 h-[100px] w-[300px] bg-[#120904] flex flex-col items-center justify-center"
+      className="fixed left-[1050px] top-[500px] hidden  lg:flex sm:bottom-8 sm:right-8 h-[100px] w-[300px] bg-[#120904] flex flex-col items-center justify-center"
       animate={{
         y: [0, 10, 0],
         transition: {
